@@ -1,6 +1,6 @@
 html {
   font-size: var(--font-size-lg);
-  font-family: system-ui, Inter;
+  font-family: Inter, system-ui;
   line-height: var(--default-line-height);
 }
 
