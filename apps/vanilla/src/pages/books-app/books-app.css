@@ -76,7 +76,6 @@
 }
 
 .books__item {
-  width: var(--desktop-card-width);
   position: relative;
   overflow: hidden;
 }
