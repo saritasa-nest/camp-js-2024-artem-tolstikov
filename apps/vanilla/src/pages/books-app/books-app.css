@@ -52,7 +52,6 @@
 }
 
 .books__section__header {
-  /*width: var(--desktop-book-list-width);*/
   position: sticky;
   top: 64px;
   z-index: 1;
