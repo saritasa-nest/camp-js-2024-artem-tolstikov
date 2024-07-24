@@ -1,5 +1,32 @@
 :root {
-  --heading-color-1: #ffd700;
+  --heading-color-1: black;
   --heading-color-2: #e9967a;
-  --heading-color-3: #b0e0e6;
+  --heading-color-3: black;
+  --primary-color: black;
+  --background-color: white;
+  --checkbox-color: #f15924;
+  --separator-color: #00000026;
+  --input-placeholder-color: #00000080;
+  --input-element-color: #0000000d;
+  --desktop-width: 1244px;
+  --small-line-height: 20px;
+  --default-line-height: 24px;
+  --large-line-height: 32px;
+  --separator-height: 1px;
+  --light-line-weight: 400;
+  --regular-line-weight: 500;
+  --semibold-line-weight: 600;
+  --bold-line-weight: 700;
+  --default-gap: 8px;
+  --extended-gap: 12px;
+  --double-gap: calc(var(--default-gap) * 2);
+  --triple-gap: calc(var(--default-gap) * 3);
+  --element-border-radius: 2px;
+  --element-double-border-radius: calc(var(--element-border-radius) * 2);
+  --frame-border-radius: 16px;
+  --font-size-sm: 16px;
+  --font-size-md: 18px;
+  --font-size-lg: 20px;
+  --border-size-1: 1px;
+  --border-size-2: 2px;
 }

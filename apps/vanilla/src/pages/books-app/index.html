@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="./books-app.css"/>
+    <title>📚 Books app</title>
+  </head>
+  <body class="default-layout" id="top">
+    <header class="header">
+      <h1 class="typography__title">📚 Books app</h1>
+    </header>
+    <main class="main">
+      <div class="books">
+        <div class="books__section">
+          <div class="books__section__header">
+            <h3 class="typography__header">2020 year</h3>
+          </div>
+          <div class="books__list">
+            <div class="books__item">
+              <img class="books__item__image" src="assets/img/book-covers/image 3.png" alt="Refactoring UI">
+              <span class="typography__subtitle books__item__subtitle">Refactoring UI</span>
+            </div>
+
+            <div class="books__item">
+              <img class="books__item__image" src="assets/img/book-covers/image 1.png"
+                   alt="Master the Skill of Debugging CSS">
+              <span class="typography__subtitle">Master the Skill of Debugging CSS</span>
+            </div>
+
+            <div class="books__item">
+              <img class="books__item__image" src="assets/img/book-covers/image 9.png" alt="Blue Period">
+              <span class="typography__subtitle">Blue Period</span>
+            </div>
+          </div>
+        </div>
+        <div class="books__section">
+          <div class="books__section__header">
+            <h3 class="typography__header">1980 year</h3>
+          </div>
+          <div class="books__list">
+            <div class="books__item">
+              <img class="books__item__image" src="assets/img/book-covers/image 10.png" alt="Yokohama Kaidashi Kikou">
+              <span class="typography__subtitle">Yokohama Kaidashi Kikou</span>
+            </div>
+
+            <div class="books__item">
+              <img class="books__item__image" src="assets/img/book-covers/image 4.png"
+                   alt="Learning JavaScript Design Patterns">
+              <span class="typography__subtitle">Learning JavaScript Design Patterns</span>
+            </div>
+
+            <div class="books__item">
+              <img class="books__item__image" src="assets/img/book-covers/image 11.png" alt="Yotsuba to!">
+              <span class="typography__subtitle">Yotsuba to!</span>
+            </div>
+
+            <div class="books__item">
+              <img class="books__item__image" src="assets/img/book-covers/image 5.png" alt="Domain-Driven Design">
+              <span class="typography__subtitle">Domain-Driven Design</span>
+            </div>
+
+            <div class="books__item">
+              <img class="books__item__image" src="assets/img/book-covers/image 6.png"
+                   alt="Implementing Domain-Driven Design">
+              <span class="typography__subtitle">Implementing Domain-Driven Design</span>
+            </div>
+
+            <div class="books__item">
+              <img class="books__item__image" src="assets/img/book-covers/image 8.png" alt="7 Навыков высокэффективных">
+              <span class="typography__subtitle">7 Навыков высокэффективных</span>
+            </div>
+          </div>
+        </div>
+        <div class="books__section">
+          <div class="books__section__header">
+            <h3 class="typography__header">1900 year</h3>
+          </div>
+          <div class="books__list">
+            <div class="books__item">
+              <img class="books__item__image" src="assets/img/book-covers/image 7.png" alt="Винокуры">
+              <span class="typography__subtitle">Винокуры</span>
+            </div>
+
+            <div class="books__item">
+              <img class="books__item__image" src="assets/img/book-covers/image 2.png" alt="Refactoring">
+              <span class="typography__subtitle">Refactoring</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="filters-container">
+        <div class="filters">
+          <h3 class="typography__header">Filters</h3>
+
+          <div class="filters__search__input">
+            <img src="assets/svg/heroicons_magnifying-glass.svg" alt="Icon">
+            <input class="filters__search__input" type="search" placeholder="e.g. &quot;Refactoring&quot;">
+          </div>
+
+          <select class="filters__input__select" name="sort-fields" id="sort-field">
+            <option disabled selected value>Choose sort field</option>
+            <option value="sort1">Length</option>
+            <option value="sort2">Sort2</option>
+            <option value="sort3">Sort3</option>
+            <option value="sort4">Sort4</option>
+          </select>
+          <div>
+            <label class="filters__checkbox-button">
+              <input type="checkbox" class="filters__checkbox-button__input" id="choice1-1" name="choice1">
+              <span class="filters__checkbox-button__control"></span>
+              <span class="filters__checkbox-button__label">Show comics</span>
+            </label>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer__left-align">
+        <p><span class="footer__copyright-app-name">Books app</span> <span class="footer__copyright-year">© 2023</span>
+        </p>
+        <a href="https://github.com/saritasa-nest/camp-js-2024-artem-tolstikov">Github</a>
+      </div>
+      <a class="footer__go-to-top" href="#top">Go to top ↑</a>
+    </footer>
+    <script type="module" src="./books-app.ts"></script>
+  </body>
+</html>
