@@ -5,22 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>📚 Books app</title>
     <script type="module" crossorigin src="/camp-js-2024-artem-tolstikov/pr-preview/pr-1/assets/modulepreload-polyfill-B5Qt9EMX.js"></script>
-    <link rel="stylesheet" crossorigin href="/camp-js-2024-artem-tolstikov/pr-preview/pr-1/assets/index-6UgCQHwX.css">
+    <link rel="stylesheet" crossorigin href="/camp-js-2024-artem-tolstikov/pr-preview/pr-1/assets/index-CrN3Pbv0.css">
   </head>
   <body class="default-layout" id="top">
     <header class="header">
       <h1 class="typography__title">📚 Books app</h1>
     </header>
     <main class="main">
-      <div class="books__lists">
-        <div class="books__list__section">
-          <div class="books__year__header">
+      <div class="books">
+        <div class="books__section">
+          <div class="books__section__header">
             <h3 class="typography__header">2020 year</h3>
           </div>
           <div class="books__list">
             <div class="books__item">
               <img class="books__item__image" src="/camp-js-2024-artem-tolstikov/pr-preview/pr-1/assets/image%203-CAiND0-t.png" alt="Refactoring UI">
-              <span class="typography__subtitle">Refactoring UI</span>
+              <span class="typography__subtitle books__item__subtitle">Refactoring UI</span>
             </div>
 
             <div class="books__item">
@@ -35,8 +35,8 @@
             </div>
           </div>
         </div>
-        <div class="books__list__section">
-          <div class="books__year__header">
+        <div class="books__section">
+          <div class="books__section__header">
             <h3 class="typography__header">1980 year</h3>
           </div>
           <div class="books__list">
@@ -73,8 +73,8 @@
             </div>
           </div>
         </div>
-        <div class="books__list__section">
-          <div class="books__year__header">
+        <div class="books__section">
+          <div class="books__section__header">
             <h3 class="typography__header">1900 year</h3>
           </div>
           <div class="books__list">
@@ -91,27 +91,29 @@
         </div>
       </div>
 
-      <div class="filters">
-        <h3 class="typography__header">Filters</h3>
+      <div class="filters-container">
+        <div class="filters">
+          <h3 class="typography__header">Filters</h3>
 
-        <div class="filters__search__input">
-          <img src="data:image/svg+xml,%3csvg%20width='24'%20height='24'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='m21%2021-5.197-5.197m0%200A7.5%207.5%200%201%200%205.196%205.196a7.5%207.5%200%200%200%2010.607%2010.607Z'%20stroke='%23000'%20stroke-width='1.5'%20stroke-linecap='round'%20stroke-linejoin='round'/%3e%3c/svg%3e" alt="Icon">
-          <input class="filters__search__input" type="search" placeholder="e.g. &quot;Refactoring&quot;">
-        </div>
+          <div class="filters__search__input">
+            <img src="data:image/svg+xml,%3csvg%20width='24'%20height='24'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='m21%2021-5.197-5.197m0%200A7.5%207.5%200%201%200%205.196%205.196a7.5%207.5%200%200%200%2010.607%2010.607Z'%20stroke='%23000'%20stroke-width='1.5'%20stroke-linecap='round'%20stroke-linejoin='round'/%3e%3c/svg%3e" alt="Icon">
+            <input class="filters__search__input" type="search" placeholder="e.g. &quot;Refactoring&quot;">
+          </div>
 
-        <select class="filters__input__select" name="sort-fields" id="sort-field">
-          <option disabled selected value>Choose sort field</option>
-          <option value="sort1">Length</option>
-          <option value="sort2">Sort2</option>
-          <option value="sort3">Sort3</option>
-          <option value="sort4">Sort4</option>
-        </select>
-        <div>
-          <label class="filters__checkbox-button">
-            <input type="checkbox" class="filters__checkbox-button__input" id="choice1-1" name="choice1">
-            <span class="filters__checkbox-button__control"></span>
-            <span class="filters__checkbox-button__label">Show comics</span>
-          </label>
+          <select class="filters__input__select" name="sort-fields" id="sort-field">
+            <option disabled selected value>Choose sort field</option>
+            <option value="sort1">Length</option>
+            <option value="sort2">Sort2</option>
+            <option value="sort3">Sort3</option>
+            <option value="sort4">Sort4</option>
+          </select>
+          <div>
+            <label class="filters__checkbox-button">
+              <input type="checkbox" class="filters__checkbox-button__input" id="choice1-1" name="choice1">
+              <span class="filters__checkbox-button__control"></span>
+              <span class="filters__checkbox-button__label">Show comics</span>
+            </label>
+          </div>
         </div>
       </div>
     </main>
